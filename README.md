@@ -9,12 +9,15 @@ This project is a real-time human recognition and tracking system built using YO
 - 🎯 **Intelligent track ID reassignment** based on image similarity  
 - 📂 **Outputs annotated video** and stores tracking images for analysis  
 
-🚀 How It Works
-    Captures live video feed via webcam.
-    Detects humans using YOLOv8 (confidence threshold ≥ 0.8).
-    Tracks each person using Deep SORT and assigns a unique ID.
-    Saves cropped images of each person into folders (tracked_images/track_id_X).
-    If the same person is re-detected, it compares with saved images using CLIP embeddings and reassigns the correct ID.
-    Annotates frames with bounding boxes and track IDs, and writes to the output video.
+## 🚀 How It Works
+
+- Captures live video feed via webcam  
+- Detects humans using YOLOv8 (confidence threshold ≥ 0.8)  
+- Tracks each person using Deep SORT and assigns a unique ID  
+- Saves cropped images of each person into folders (`tracked_images/track_id_X`)  
+- If the same person is re-detected, compares with saved images using CLIP embeddings  
+- Reassigns the correct ID and annotates frames with bounding boxes and IDs  
+- Writes the annotated output to video  
+
 
     Output Video: https://shorturl.at/LLBJ5
