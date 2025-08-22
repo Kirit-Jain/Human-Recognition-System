@@ -20,4 +20,4 @@ This project is a real-time human recognition and tracking system built using YO
 - Writes the annotated output to video  
 
 
-    Output Video: https://shorturl.at/LLBJ5
+    Output Video: https://drive.google.com/file/d/1Cxta55Jc2D4jf7yUMe6w21C6bn-Bo-uk/view?usp=sharing
